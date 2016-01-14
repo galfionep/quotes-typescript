@@ -1,4 +1,4 @@
-namespace quote {
+import { IQuote } from './i-quote'
 
     /**
      * @description: Classe della Citazione
@@ -17,6 +17,7 @@ namespace quote {
         * @property
         */
         votes: Array<number>;
+  
 
         /**
          * @description: costruttori
@@ -39,4 +40,3 @@ namespace quote {
             return sum / this.votes.length;
         }
     }
-}

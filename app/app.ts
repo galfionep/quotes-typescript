@@ -1,4 +1,4 @@
-namespace quote {
+import { Quote } from './quote'
 
     var q = new Quote('Hello Typescript!');
     
@@ -6,4 +6,3 @@ namespace quote {
     
     console.log(`"${q.text}" ha  voti ${q.votes.length} e una media pari a ${q.rating()}`);
 
-}

@@ -2,6 +2,11 @@
     "compilerOptions": {
         "target": "es5",
         "sourceMap": true,
-        "outDir": "bin/"
-    }
+        "outDir": "bin/",
+        "module": "system"
+    },
+    "exclude": [
+        "node_modules",
+        "bin"
+    ]
 }

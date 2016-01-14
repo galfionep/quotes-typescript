@@ -1,5 +1,3 @@
-namespace quote {
-    
     /**
      * @description: Interfaccia della Citazione
      */
@@ -11,4 +9,3 @@ namespace quote {
         // media dei voti somma(votes)/conta(votes)
         rating(): number;
     }
-}
