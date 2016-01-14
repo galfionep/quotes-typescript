@@ -1,0 +1,29 @@
+{
+  "name": "quotes",
+  "version": "1.0.0",
+  "description": "Introduzione a Typescript",
+  "main": "app.ts",
+  "bin": {
+    "quotes": "app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolo-galfione/quotes-typescript.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Javascript"
+  ],
+  "author": "Paolo Galfione",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paolo-galfione/quotes-typescript/issues"
+  },
+  "homepage": "https://github.com/paolo-galfione/quotes-typescript#readme",
+  "dependencies": {
+    "systemjs": "^0.19.16"
+  }
+}

@@ -1,3 +1,5 @@
 # Transpiled sorces e map files
 bin
 
+# npm packages
+node_modules

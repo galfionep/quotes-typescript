@@ -1,8 +1,9 @@
 namespace quote {
 
-    var quote = new Quote();
-    quote.text = 'Hello Typescript!';
-
-    console.log(quote);
+    var q = new Quote('Hello Typescript!');
+    
+    q.votes = [5, 4, 3, 5, 5, 5, 4, 3];
+    
+    console.log(`"${q.text}" ha  voti ${q.votes.length} e una media pari a ${q.rating()}`);
 
 }
