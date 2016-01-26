@@ -34,6 +34,7 @@ import { IQuote } from './i-quote'
          * @function
          */
         rating(): number {
+            
             let sum = this.votes.reduce((prev: number, next: number) => {
                 return prev + next;
             });
