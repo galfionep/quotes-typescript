@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Quotes tests</title>
+    // 1. Load Jasmine components
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+    <link rel="stylesheet" href="../node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
+    <script src="../node_modules/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+    <script src="../node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="../node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
+
+    // 2. Load tests
+        <script>
+        // Backwards-compatibility mode for the loader to automatically add '.js' 
+        System.defaultJSExtensions = true;
+       
+        // Load bootstrap application
+        System.import('../bin/test/first.spec.js');
+    </script>
+
+</head>
+
+<body>
+</body>
+
+</html>

@@ -25,5 +25,8 @@
   "homepage": "https://github.com/paolo-galfione/quotes-typescript#readme",
   "dependencies": {
     "systemjs": "^0.19.16"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1"
   }
 }

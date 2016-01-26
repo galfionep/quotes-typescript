@@ -31,9 +31,9 @@ import { IQuote } from './i-quote'
 
         /**
          * @description: media dei voti somma(votes)/conta(votes)
-         * @function
+         * @property
          */
-        rating(): number {
+        get rating(): number {
             
             let sum = this.votes.reduce((prev: number, next: number) => {
                 return prev + next;
