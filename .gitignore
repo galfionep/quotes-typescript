@@ -3,3 +3,9 @@ bin
 
 # npm packages
 node_modules
+
+# DefinitelyTypes
+tsd
+
+# Typescript documentation: Typedoc
+docs
